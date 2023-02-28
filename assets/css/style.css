@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2F2F2;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  width: 450px;
+  height: 697px;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.headingPhoto {
+  border-radius: 20px 20px 0 0;
+  padding-bottom: 45px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Outfit", sans-serif;
+  width: 354px;
+}
+
+.heading {
+  width: 354px;
+  padding-bottom: 40px;
+}
+
+.heading h1 {
+  font-size: 28px;
+  color: #1F2E55;
+  font-weight: 900;
+  line-height: 37px;
+  text-align: center;
+  vertical-align: top;
+  height: 37px;
+  padding-bottom: 17px;
+}
+
+.heading p {
+  height: 78px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #717FA6;
+}
+
+.annual {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #F7F9FF;
+  border-radius: 11px;
+  height: 98px;
+  width: 354px;
+  text-align: left;
+}
+
+.annual h2 {
+  color: #1F2E55;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 21px;
+  padding-bottom: 6px;
+}
+
+.annual p {
+  color: #717FA6;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+.annual a {
+  color: #382AE1;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 700;
+  padding-left: 69px;
+  padding-right: 24px;
+}
+
+.info {
+  padding-top: 17px;
+}
+
+.icon {
+  padding-left: 24px;
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 354px;
+}
+
+.pay a {
+  background-color: #382AE1;
+  width: 354px;
+  height: 50px;
+  border-radius: 11px;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  line-height: 20px;
+  font-size: 15px;
+  text-align: center;
+  box-shadow: #382AE131 0 20px 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pay {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.cancel a {
+  color: #717FA6;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  width: 96px;
+  text-decoration: none;
+}
+
+.cancel {
+  text-align: center;
+}
